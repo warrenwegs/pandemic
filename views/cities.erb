@@ -1,8 +1,8 @@
 <div class="cities-list">
-  <% cities.each do |city| %>
+  <% cities.each do |name, city| %>
     <p style="color: <%= city.color %>; position: absolute; top: <%=city.y  %>%; left: <%= city.x %>%">-<%= city.name %></p>
-<!--     <% city.adjCities.each do |adjCity| %>
-      <p style="color: black"><%= adjCity %></p>
-    <% end %> -->
+<!--         <% city.adjCities.each do |adjCity| %>
+      <p style="color: <%= adjCity.color %>"><%= adjCity.name %></p>
+    <% end %>  -->
   <% end %>
 </div>
