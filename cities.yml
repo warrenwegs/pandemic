@@ -1,200 +1,339 @@
 # City
   # Color
   # Connected city
-
 San Francisco:
   Color:
     Blue
   Connected: ['Tokyo','Manila','Chicago','Los Angeles']
+  Coords:
+    x: 5
+    y: 29
 Chicago:
   Color:
     Blue
   Connected: ['San Francisco','Los Angeles','Mexico City','Atlanta','Montreal']
-Toronto:
-  Color:
-    Blue
-  Connected: ['Chicago','Washington','New York']
-Atlanta:
-  Color:
-    Blue
-  Connected: ['Chicago','Miami','Washington']
+  Coords:
+    x: 12
+    y: 26
 Montreal:
   Color:
     Blue
   Connected: ['Chicago','Washington','New York']
+  Coords:
+    x: 20
+    y: 26
+Atlanta:
+  Color:
+    Blue
+  Connected: ['Chicago','Miami','Washington']
+  Coords:
+    x: 16
+    y: 32
 New York:
   Color:
     Blue
   Connected: ['Montreal','Washington','London','Madrid']
+  Coords:
+    x: 27
+    y: 26
 Washington:
   Color:
     Blue
   Connected: ['Atlanta','Miami','Montreal','New York']
+  Coords:
+    x: 24
+    y: 32
 London:
   Color:
     Blue
   Connected: ['New York','Madrid','Paris','Essen']
+  Coords:
+    x: 38
+    y: 21
 Madrid:
   Color:
     Blue
   Connected: ['New York','Sao Paulo','Algiers','Paris','London']
+  Coords:
+    x: 38
+    y: 28
 Essen:
   Color:
     Blue
   Connected: ['London','Paris','Milan','St. Petersburg']
+  Coords:
+    x: 47
+    y: 18
 Paris:
   Color:
     Blue
   Connected: ['Madrid','London','Essen','Milan','Algiers']
+  Coords:
+    x: 45
+    y: 25
 Milan:
   Color:
     Blue
   Connected: ['Essen','Paris','Istanbul']
+  Coords:
+    x: 51
+    y: 24
 St. Petersburg:
   Color:
     Blue
   Connected: ['Essen','Istanbul','Moscow']
+  Coords:
+    x: 54
+    y: 17
 Algiers:
   Color:
     Black
   Connected: ['Madrid','Paris','Istanbul','Cairo']
+  Coords:
+    x: 45
+    y: 33
 Istanbul:
   Color:
     Black
   Connected: ['Milan','Algiers','Cairo','Baghdad','Moscow','St. Petersburg']
+  Coords:
+    x: 53
+    y: 28
 Moscow:
   Color:
     Black
   Connected: ['St. Petersburg','Istanbul','Tehran']
+  Coords:
+    x: 60
+    y: 22
 Cairo:
   Color:
     Black
   Connected: ['Algiers','Istanbul','Baghdad','Riyadh']
+  Coords:
+    x: 52
+    y: 35
 Baghdad:
   Color:
     Black
   Connected: ['Cairo','Istanbul','Tehran','Karachi','Riyadh']
+  Coords:
+    x: 57
+    y: 32
 Tehran:
   Color:
     Black
   Connected: ['Moscow','Baghdad','Karachi','Delhi']
+  Coords:
+    x: 64
+    y: 27
 Riyadh:
   Color:
     Black
   Connected: ['Cairo','Baghdad','Karachi']
+  Coords:
+    x: 60
+    y: 37
 Karachi:
   Color:
     Black
   Connected: ['Baghdad','Riyadh','Tehran','Delhi','Mumbai']
+  Coords:
+    x: 65
+    y: 33
 Delhi:
   Color:
     Black
   Connected: ['Tehran','Karachi','Kolkata','Chennai','Mumbai']
+  Coords:
+    x: 71
+    y: 31
 Mumbai:
   Color:
     Black
   Connected: ['Karachi','Delhi','Chennai']
+  Coords:
+    x: 66
+    y: 40
 Kolkata:
   Color:
     Black
   Connected: ['Delhi','Chennai','Bangkok','Hong Kong']
+  Coords:
+    x: 76
+    y: 33
 Chennai:
   Color:
     Black
   Connected: ['Mumbai','Delhi','Kolkata','Bangkok','Jakarta']
+  Coords:
+    x: 72
+    y: 43
 Bejing:
   Color:
     Red
   Connected: ['Shanghai','Seoul']
+  Coords:
+    x: 81
+    y: 24
 Shanghai:
   Color:
     Red
   Connected: ['Bejing','Seoul','Tokyo','Taipei','Hong Kong']
+  Coords:
+    x: 82
+    y: 31
 Hong Kong:
   Color:
     Red
   Connected: ['Kolkata','Bangkok','Ho Chi Minh City','Manila','Taipei','Shanghai']
+  Coords:
+    x: 83
+    y: 36
 Bangkok:
   Color:
     Red
   Connected: ['Chennai','Kolkata','Hong Kong','Ho Chi Minh City','Jakarta']
+  Coords:
+    x: 77
+    y: 40
 Jakarta:
   Color:
     Red
   Connected: ['Chennai','Bangkok','Ho Chi Minh City','Sydney']
-Ho Chi Minh City:
+  Coords:
+    x: 78
+    y: 47
+Ho Chi Minh City: 
   Color:
     Red
   Connected: ['Bangkok','Hong Kong','Manila','Jakarta']
+  Coords:
+    x: 84
+    y: 43
 Seoul:
   Color:
     Red
   Connected: ['Bejing','Shanghai','Tokyo']
+  Coords:
+    x: 88
+    y: 24
 Taipei:
   Color:
     Red
   Connected: ['Shanghai','Hong Kong','Osaka','Manila']
+  Coords:
+    x: 90
+    y: 36
 Manila:
   Color:
     Red
   Connected: ['Ho Chi Minh City','Hong Kong','Taipei','San Francisco', 'Sydney']
-Sydney:
+  Coords:
+    x: 90
+    y: 41
+Sydney: 
   Color:
     Red
   Connected: ['Jakarta','Manila','Los Angeles']
+  Coords:
+    x: 95
+    y: 56
 Tokyo:
   Color:
     Red
   Connected: ['Seoul','Shanghai','Osaka','San Francisco']
+  Coords:
+    x: 95
+    y: 28
 Osaka:
   Color:
     Red
   Connected: ['Taipei','Tokyo']
+  Coords:
+    x: 94
+    y: 33
 Los Angeles:
   Color:
     Gold
   Connected: ['Sydney','San Francisco','Chicago','Mexico City']
-Mexico City:
+  Coords:
+    x: 6
+    y: 35
+Mexico City: 
   Color:
     Gold
   Connected: ['Los Angeles','Chicago','Miami','Bogata','Lima']
+  Coords:
+    x: 12
+    y: 38
 Miami:
   Color:
     Gold
   Connected: ['Mexico City','Atlanta','Washington','Bogata']
+  Coords:
+    x: 22
+    y: 36
 Bogata:
   Color:
     Gold
   Connected: ['Miami','Mexico City','Lima','Buenos Aires','Sao Paulo']
+  Coords:
+    x: 21
+    y: 42
 Lima:
   Color:
     Gold
   Connected: ['Mexico City','Bogata','Santiago']
+  Coords:
+    x: 16
+    y: 50
 Santiago:
   Color:
     Gold
   Connected: ['Lima']
+  Coords:
+    x: 20
+    y: 58
 Buenos Aires:
   Color:
     Gold
   Connected: ['Bogata','Sao Paulo']
+  Coords:
+    x: 27
+    y: 57
 Sao Paulo:
   Color:
     Gold
   Connected: ['Buenos Aires','Bogata','Madrid','Lagos']
+  Coords:
+    x: 32
+    y: 51
 Lagos:
   Color:
     Gold
   Connected: ['Sao Paulo','Kinshasa','Khartoum']
+  Coords:
+    x: 45
+    y: 42
 Khartoum:
   Color:
     Gold
   Connected: ['Cairo','Lagos','Kinshasa','Johannesburg']
+  Coords:
+    x: 54
+    y: 41
 Kinshasa:
   Color:
     Gold
   Connected: ['Lagos','Khartoum','Johannesburg']
+  Coords:
+    x: 49
+    y: 46
 Johannesburg:
   Color:
     Gold
   Connected: ['Kinshasa','Khartoum']
+  Coords:
+    x: 52
+    y: 53
