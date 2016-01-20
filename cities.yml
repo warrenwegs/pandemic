@@ -1,0 +1,200 @@
+# City
+  # Color
+  # Connected city
+
+San Francisco:
+  Color:
+    Blue
+  Connected: ['Tokyo','Manila','Chicago','Los Angeles']
+Chicago:
+  Color:
+    Blue
+  Connected: ['San Francisco','Los Angeles','Mexico City','Atlanta','Montreal']
+Toronto:
+  Color:
+    Blue
+  Connected: ['Chicago','Washington','New York']
+Atlanta:
+  Color:
+    Blue
+  Connected: ['Chicago','Miami','Washington']
+Montreal:
+  Color:
+    Blue
+  Connected: ['Chicago','Washington','New York']
+New York:
+  Color:
+    Blue
+  Connected: ['Montreal','Washington','London','Madrid']
+Washington:
+  Color:
+    Blue
+  Connected: ['Atlanta','Miami','Montreal','New York']
+London:
+  Color:
+    Blue
+  Connected: ['New York','Madrid','Paris','Essen']
+Madrid:
+  Color:
+    Blue
+  Connected: ['New York','Sao Paulo','Algiers','Paris','London']
+Essen:
+  Color:
+    Blue
+  Connected: ['London','Paris','Milan','St. Petersburg']
+Paris:
+  Color:
+    Blue
+  Connected: ['Madrid','London','Essen','Milan','Algiers']
+Milan:
+  Color:
+    Blue
+  Connected: ['Essen','Paris','Istanbul']
+St. Petersburg:
+  Color:
+    Blue
+  Connected: ['Essen','Istanbul','Moscow']
+Algiers:
+  Color:
+    Black
+  Connected: ['Madrid','Paris','Istanbul','Cairo']
+Istanbul:
+  Color:
+    Black
+  Connected: ['Milan','Algiers','Cairo','Baghdad','Moscow','St. Petersburg']
+Moscow:
+  Color:
+    Black
+  Connected: ['St. Petersburg','Istanbul','Tehran']
+Cairo:
+  Color:
+    Black
+  Connected: ['Algiers','Istanbul','Baghdad','Riyadh']
+Baghdad:
+  Color:
+    Black
+  Connected: ['Cairo','Istanbul','Tehran','Karachi','Riyadh']
+Tehran:
+  Color:
+    Black
+  Connected: ['Moscow','Baghdad','Karachi','Delhi']
+Riyadh:
+  Color:
+    Black
+  Connected: ['Cairo','Baghdad','Karachi']
+Karachi:
+  Color:
+    Black
+  Connected: ['Baghdad','Riyadh','Tehran','Delhi','Mumbai']
+Delhi:
+  Color:
+    Black
+  Connected: ['Tehran','Karachi','Kolkata','Chennai','Mumbai']
+Mumbai:
+  Color:
+    Black
+  Connected: ['Karachi','Delhi','Chennai']
+Kolkata:
+  Color:
+    Black
+  Connected: ['Delhi','Chennai','Bangkok','Hong Kong']
+Chennai:
+  Color:
+    Black
+  Connected: ['Mumbai','Delhi','Kolkata','Bangkok','Jakarta']
+Bejing:
+  Color:
+    Red
+  Connected: ['Shanghai','Seoul']
+Shanghai:
+  Color:
+    Red
+  Connected: ['Bejing','Seoul','Tokyo','Taipei','Hong Kong']
+Hong Kong:
+  Color:
+    Red
+  Connected: ['Kolkata','Bangkok','Ho Chi Minh City','Manila','Taipei','Shanghai']
+Bangkok:
+  Color:
+    Red
+  Connected: ['Chennai','Kolkata','Hong Kong','Ho Chi Minh City','Jakarta']
+Jakarta:
+  Color:
+    Red
+  Connected: ['Chennai','Bangkok','Ho Chi Minh City','Sydney']
+Ho Chi Minh City:
+  Color:
+    Red
+  Connected: ['Bangkok','Hong Kong','Manila','Jakarta']
+Seoul:
+  Color:
+    Red
+  Connected: ['Bejing','Shanghai','Tokyo']
+Taipei:
+  Color:
+    Red
+  Connected: ['Shanghai','Hong Kong','Osaka','Manila']
+Manila:
+  Color:
+    Red
+  Connected: ['Ho Chi Minh City','Hong Kong','Taipei','San Francisco', 'Sydney']
+Sydney:
+  Color:
+    Red
+  Connected: ['Jakarta','Manila','Los Angeles']
+Tokyo:
+  Color:
+    Red
+  Connected: ['Seoul','Shanghai','Osaka','San Francisco']
+Osaka:
+  Color:
+    Red
+  Connected: ['Taipei','Tokyo']
+Los Angeles:
+  Color:
+    Gold
+  Connected: ['Sydney','San Francisco','Chicago','Mexico City']
+Mexico City:
+  Color:
+    Gold
+  Connected: ['Los Angeles','Chicago','Miami','Bogata','Lima']
+Miami:
+  Color:
+    Gold
+  Connected: ['Mexico City','Atlanta','Washington','Bogata']
+Bogata:
+  Color:
+    Gold
+  Connected: ['Miami','Mexico City','Lima','Buenos Aires','Sao Paulo']
+Lima:
+  Color:
+    Gold
+  Connected: ['Mexico City','Bogata','Santiago']
+Santiago:
+  Color:
+    Gold
+  Connected: ['Lima']
+Buenos Aires:
+  Color:
+    Gold
+  Connected: ['Bogata','Sao Paulo']
+Sao Paulo:
+  Color:
+    Gold
+  Connected: ['Buenos Aires','Bogata','Madrid','Lagos']
+Lagos:
+  Color:
+    Gold
+  Connected: ['Sao Paulo','Kinshasa','Khartoum']
+Khartoum:
+  Color:
+    Gold
+  Connected: ['Cairo','Lagos','Kinshasa','Johannesburg']
+Kinshasa:
+  Color:
+    Gold
+  Connected: ['Lagos','Khartoum','Johannesburg']
+Johannesburg:
+  Color:
+    Gold
+  Connected: ['Kinshasa','Khartoum']

@@ -1,0 +1,10 @@
+<table>
+  <% cities.each do |city, value| %>
+    <tr>
+      <td style="color: <%= value.first[1] %>"><%= city %></td>
+      <% value.values[1].each do |x| %>
+        <td style="color: <%= cities[x].first[1] %>"><%= x %></td>
+      <% end %>
+    </tr>
+  <% end %>
+</table>
