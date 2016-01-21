@@ -1,8 +1,13 @@
 <div class="cities-list">
   <% cities.each do |name, city| %>
-    <p style="color: <%= city.color %>; position: absolute; top: <%=city.y  %>%; left: <%= city.x %>%">-<%= city.name %></p>
-<!--         <% city.adjCities.each do |adjCity| %>
-      <p style="color: <%= adjCity.color %>"><%= adjCity.name %></p>
-    <% end %>  -->
+    <p style="color: <%= city.color %>; position: absolute; top: <%=city.y %>%; left: <%= city.x %>%"><%= city.name %>
+      <% city.diseases.each do |color, qty| %>
+        <span style="color: <%= color %>">
+          <% 1.upto(qty) do |i| %>
+            &squf;
+          <% end %>
+        </span>
+      <% end %>
+    </p>
   <% end %>
 </div>

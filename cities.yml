@@ -14,7 +14,7 @@ Chicago:
   Connected: ['San Francisco','Los Angeles','Mexico City','Atlanta','Montreal']
   Coords:
     x: 12
-    y: 26
+    y: 27
 Montreal:
   Color:
     Blue
@@ -35,7 +35,7 @@ New York:
   Connected: ['Montreal','Washington','London','Madrid']
   Coords:
     x: 27
-    y: 26
+    y: 25
 Washington:
   Color:
     Blue
@@ -224,7 +224,7 @@ Taipei:
   Connected: ['Shanghai','Hong Kong','Osaka','Manila']
   Coords:
     x: 90
-    y: 36
+    y: 35
 Manila:
   Color:
     Red
